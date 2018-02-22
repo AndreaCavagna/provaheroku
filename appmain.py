@@ -16,5 +16,4 @@ def index(request):
 
     return render(request, '<h1>' + 'helloworld' + '</h1>')
 
-st = 3*5
-str(st)
+render( '<h1>' + 'helloworld' + '</h1>')
