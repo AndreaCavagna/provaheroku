@@ -1,1 +1,1 @@
-web: gunicorn views.py
+web: gunicorn gettingstarted.wsgi

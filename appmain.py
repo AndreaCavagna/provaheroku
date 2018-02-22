@@ -15,3 +15,6 @@ def index(request):
     # return HttpResponse('Hello from Python!')
 
     return render(request, '<h1>' + 'helloworld' + '</h1>')
+
+st = 3*5
+str(st)
