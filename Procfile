@@ -1,1 +1,1 @@
-web: gunicorn microblog.py
+web: gunicorn app:app
